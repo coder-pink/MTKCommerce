@@ -1,0 +1,25 @@
+:root {
+    --primary: #2596be;
+    --hov-primary: #3396bae7;
+    /* --soft-secondary: rgba(119, 192, 218, 0.313); */
+    /* --soft-primary: rgba(233, 233, 240, 1); */
+    --soft-primary: #fff;
+    /* --soft-primary: #2596be; */
+}
+
+
+.aiz-side-nav-list .aiz-side-nav-link:hover,
+.aiz-side-nav-list .aiz-side-nav-link.level-2-active,
+.aiz-side-nav-list .aiz-side-nav-link.level-3-active,
+.aiz-side-nav-list .aiz-side-nav-link.active {
+    color: #2596be;
+}
+
+
+.aiz-sidebar.left {
+    background-color: #fff;
+}
+
+.aiz-side-nav-logo-wrap img {
+    height: 44px;
+}

@@ -1,0 +1,53 @@
+/*your custom css goes here*/
+
+:root {
+    --primary: #2596be !important;
+    --hov-primary: rgba(37, 149, 190, 0.678) !important;
+    --secondary: #8f97ab;
+}
+
+.bg-primary ,
+.hov-bg-primary:hover {
+    background-color: var(--primary) !important;
+}
+/* .bg-soft-primary,
+.hov-bg-soft-primary:hover {
+    background-color: var(--soft-primary) !important;
+} */
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.disabled,
+.btn-primary:disabled,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+    background-color: var(--hov-primary);
+    border-color: var(--hov-primary);
+}
+
+.btn-primary,
+.btn-soft-primary:hover,
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--white);
+}
+
+
+
+
+
+
+.aiz-side-nav-logo-wrap {
+    /* background-color: #fff; */
+    background-color: #E9E9F0 !important;
+
+}
+.aiz-side-nav-logo-wrap:hover {
+    background-color: #fff !important;
+}
